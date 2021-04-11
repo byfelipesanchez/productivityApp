@@ -1,13 +1,13 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button, TextInput, Picker } from 'react-native';
-import { styles } from './stylesheet';
-import Menu from './components/menu';
-import Buttons from './components/button';
-import Timer from './components/timer';
-import Label from './components/label';
-import Info from './components/info';
-import Picture from './components/picture';
-import vibrate from './vibrate';
+import { styles } from './src/style/stylesheet';
+import Menu from './src/components/menu';
+import Buttons from './src/components/button';
+import Timer from './src/components/timer';
+import Label from './src/components/label';
+import Info from './src/components/info';
+import Picture from './src/components/picture';
+import vibrate from './src/components/vibrate';
 
 function leftPadding(n) {
   if (parseInt(n) < 10) {
